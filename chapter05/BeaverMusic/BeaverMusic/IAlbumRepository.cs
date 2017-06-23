@@ -6,6 +6,8 @@ namespace BeaverMusic
     {
         ReadOnlyObservableCollection<Album> GetAlbums();
 
+
+
         Album SaveAlbum(Album album);
 
         void RemoveAlbum(int id);
